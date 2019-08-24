@@ -36,8 +36,6 @@ public class SchoolBandProblem {
 		    System.out.println("Total minutes for Monday and Tuesday is:" + totalMinutes);
 		    System.out.println("Total minutes for Monday and Tuesday from the calculateMinutesInt() is :" + calculateMinutesInt(monday, tuesday));
 		    calculateMinutesVoid(monday, tuesday);
-		    
-		    
 		}
 		
 		//Calculate minutes with an int return type
@@ -52,12 +50,15 @@ public class SchoolBandProblem {
 			System.out.println("Total minutes for Monday and Tuesday from the calculateMinutesVoid() is :" + totalMinutes);
 		}
 		
-	
-	public static void main(String[] args) {
-		SchoolBandProblem test1 = new SchoolBandProblem();
-		test1.schoolBand();
-	
+		
+		public static void main(String[] args) {
+			SchoolBandProblem test1 = new SchoolBandProblem();
+			test1.schoolBand();
+		
 
-	}
+		}
+
+	
+	
 
 }
