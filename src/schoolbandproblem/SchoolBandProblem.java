@@ -52,6 +52,7 @@ public class SchoolBandProblem {
 			System.out.println("Total minutes for Monday and Tuesday from the calculateMinutesVoid() is :" + totalMinutes);
 		}
 		
+		
 	
 	public static void main(String[] args) {
 		SchoolBandProblem test1 = new SchoolBandProblem();
